@@ -1,0 +1,135 @@
+MSKLC
+=====
+<br>
+
+Microsoft Keyboard Layout Creator
+---------------------------------
+The files in this folder are for Microsoft's MSKLC program.
+- MSKLC setup packages is the standard Windows way of implementing and installing system keyboard layouts.
+- I actually use both a MSKLC layout and my EPKL program on my computer.
+- This is because EPKL, while very powerful and versatile, doesn't always play well with low-level keyboard things.
+	- These include command interpreters such as the WSL Bash one and Windows PowerShell, and many games.
+	- EPKL sends state mapped glyphs as Key Down-then-Up events, so repeats will contain Up events which may mess up gaming.
+	- To keep things smooth, EPKL can auto-suspend itself whenever these programs are active. See the `EPKL_Settings` file.
+<br>
+
+- MSKLC can be installed from [Microsoft's Download Center][MSKLCd]. With it you can look at existing Win layouts and make new ones.
+- The installer needs the Microsoft [.NET Framework v3.5][dNet35] (not the latest version), so get and install that first.
+- This is Microsoft's own tool for generating installable layouts. It was made chiefly for creating QWERTY locale variants.
+- As such, it's a bit limited and confusing. Actually, the underlying code can do a lot more but the user interface has limits.
+- One such limit is that VK (VirtualKey) codes aren't shown in the GUI. These affect system shortcuts such as `Ctrl+<letter>`.
+- If you dabble in layout editing with MSKLC, you may have to edit your .klc file directly to get VK codes right.
+- For a good guide to basic and advanced MSKLC usage, see [Henri's MSKLC Guide][MSKLCg].
+	- In Henri's guide you'll also learn to do advanced stuff like swapping system keys (e.g., CapsLock-to-Backspace).
+	- If you're eager to map CapsLock to Backspace though, please do consider that EPKL's Extend is a whole lot better!!!
+<br>
+
+- **NB: RESTART REQUIRED!!!**
+- I apologize for shouting, but even though I've mentioned this further down the page, it's still the most common MSKLC beginner's mistake.
+- So please: Before you go and ask what's wrong with your file or something, make sure you did a full system restart after installing.
+- If it still doesn't work after a restart, consult the rest of this page and Henri's guide for more info.
+<br>
+
+Gralmak-eD for MSKLC
+--------------------
+Included are MSKLC installs for my Gralmak-eD mappings, both for vanilla Gralmak and the Grl-AWS ergonomic layout variant.
+- What you'll get is Gralmak with most of the [[eD] AltGr/deadkey][BBeDdk] layer mappings.
+- The AWS variant uses the [**A**ngle**W**ide and **S**ym][BBergo] ergonomic mods.
+- The Angle mod used is the simple ISO-Angle mod for the ISO install, and the most common ANSI-Angle(Z) mod for the ANSI install.
+- I cannot add all possible ergo mod and variant combinations as easily as with EPKL, since KLC layouts aren't modular in nature.
+- If you wish another variant you could move the keys around in the relevant `.klc` file and compile it as described above.
+	- For that, I'd recommend changing the SC codes at the start of the mapping lines for moving keys around. Avoid duplicates.
+<br>
+
+- [Link to the Grl-AWS-eD-ISO installer archive][AWSISO]
+<br>
+
+![Gralmak-AngleAWideSym on an ISO board, ground state](/_res/img/Gralmak_ISO-AWS_EPKL.png)
+
+_Gralmak-AngleWideSym layout, alias Grl-AWS, on an ISO keyboard._<br>_Ground state. The `©` key is ISO-only; on an ANSI board that positions holds `Z`._
+
+<br>
+
+Installing a MSKLC Layout
+-------------------------
+- To install a layout from a `.klc` file, it must first be compiled using the `Build DLL and Setup Package` menu option in MSKLC.
+- First, you may want to set its default folder to something else than the default `My Documents` (lower right button).
+- To install a compiled layout, run the `setup.exe` program in its folder. Setup will choose the right `.msi` and `.dll` for you.
+- The keyboard verify log may well give a lot of warnings about glyphs being defined twice etc; these don't matter.
+- If you have the layout already on your system – let's say you've edited it a little – you must **uninstall** it before compiling.
+- **NOTE: You have to restart your computer** before you can choose the newly installed layout! Really!
+<br>
+
+- Now you can select the new layout from `Language preferences` (in the tray menu if you have the Language Bar active)
+- To see the settings for keyboard layouts in Windows 10, go to the `Settings -> Time & Language -> Language` settings screen.
+	- To activate the language bar: `Language -> Keyboard [icon] -> Language bar options` (depending on Win version)
+	- To see an installed layout: `Language -> <your layout's language, such as English (United States)> -> Options -> Keyboards`.
+- To easily switch between active layouts: Hit Win+Space.
+<br>
+
+Uninstalling a MSKLC layout
+---------------------------
+Sometimes a KLC install can go wrong. That can even [mess up your computer][KLCtec], so beware.
+- First of all, to activate an install you need to restart your computer. Do that immediately after installing.
+- Secondly, system updates have been known to mess things up with KLC layouts. Again, various tech problems have been reported.
+- Here's how to uninstall an installed Windows layout in case you should need to do so:
+	- First, make sure it isn't added anywhere in the locale settings:
+	- Hit the Win key → type `Settings` → select `Time & Language` → `Language` → `English (US)` or whatever it used → `Options`
+	- Under `Colemak`-Something, press the `Remove` button. This deactivates the layout but doesn't actually uninstall it.
+	- Next, uninstall it as you would any other program:
+	- `Settings` → `Apps` & Features → `Colemak`-Something → Press `Uninstall`
+- Restart Windows
+<br>
+
+Technicalities
+--------------
+- If you have trouble using a `.klc` file from GitHub with MSKLC, make sure it contains [Windows line endings (CRLF)][WinLin].
+- Also, the encoding of the file must be `UTF-16LE-BOM`. GitHub's native format is UTF-8 which is different.
+- To get a workable file without downloading the whole repo:
+	- Right-click and `Save Link As...` from the `Raw` link on the repo page, or the links below.
+	- [Link to the raw Grl-eD.klc file in this repo][GrlAWS]
+	- Make sure the line endings and encoding are right.
+	- If you get `UTF-8` encoding and Linux endings as is native for GitHub, set them right using, e.g., the Notepad++ program.
+- By downloading the repo as a .zip file you should get the right `.klc` file formats, with correct encoding and line endings.
+<br>
+
+Compiling your own klc
+----------------------
+- Beware: I'm no expert at this, and it's only for the most tech savvy people with special layout needs. Here be dragons.
+- Compiling your own myLayout.dll from a myLayout.klc can be useful if, say, you want to move or repurpose a non-glyph key.
+- MSKLC is actually [just a front-end for a C compiler, resource compiler and a linker][LevKLC], included in its i386 folder.
+- First, `kbdutool.exe` generates C source files (.c, .def, .h, .rc). Then, it compiles and links these into an installer for the DLL.
+- I think you'll need a Windows `cmd` shell with admin rights, or a PowerShell, to run it.
+- You'll want to add the `-u` switch for Unicode `.klc` files (nearly all files these days), and `-m` if you have an AMD processor.
+```
+Usage: KbdUTool [-v] [-n] [-w] [-k] [-n] [-u|a] [-i|x] file
+
+	[-?] display this message
+	[-a] Uses non-Unicode source files (default)
+	[-i] Builds for IA64
+	[-m] Builds for AMD64
+	[-n] no logo or normal build information displayed
+	[-u] Uses Unicode source files
+	[-v] verbose diagnostics (and warnings, with -w)
+	[-w] display extended warnings
+	[-x] Builds for x86 (default)
+```
+- Is the `-s` switch needed to produce source files, in newer versions?
+- Apparently, by setting your generated/edited [source files to read-only][CmkKLC], you can then [use kbdutool to compile them][BepKLC]!
+
+
+[GrlAWS]: ./Gralmak-AWS-eD-ISO.klc                                                              (DreymaR's MSKLC Gralmak-AWS layout file)
+[MSKLCd]: https://www.microsoft.com/en-us/download/details.aspx?id=102134                       (MSKLC download at the Microsoft Download Center)
+[dNet35]: https://dotnet.microsoft.com/en-us/download/dotnet-framework/net35-sp1                (Microsoft .NET Framework v3.5 downloads)
+[MSKLCg]: https://msklc-guide.github.io/ (Henri's MSKLC Guide)
+[BBergo]: https://dreymar.colemak.org/ergo-mods.html                                            (DreymaR's Big Bag of Keyboard Tricks, on ergo mods)
+[BBeDdk]: https://dreymar.colemak.org/layers-colemaked.html                                     (DreymaR's Big Bag of Keyboard Tricks, on [eD] layers)
+[CAWSIi]: /Files/MSKLC/Grl-AWS-eD-ISO.zip                                                       (MSKLC installer for Gralmak-AWS-eD-ISO)
+[KLCtec]: https://forum.colemak.com/topic/2785-techinal-issues-after-using-colemak/#p24299      (A case of technical trouble with MSKLC)
+[WinLin]: https://stackoverflow.com/questions/32255747/on-windows-how-would-i-detect-the-line-ending-of-a-file (StackOverflow on line endings for Windows)
+[GrleDr]: /Files/MSKLC/Cmk-eD.klc                                                               (KLC file for vanilla Gralmak-eD)
+
+[LevKLC]: https://levicki.net/articles/2006/09/29/HOWTO_Build_keyboard_layouts_for_Windows_x64.php  (Levicky on kbdutool++ workings)
+[CmkKLC]: https://forum.colemak.com/topic/870-hacked-msklc-to-enable-remapping-capslock/p2/#p23010  (Cmk Forum on kbdutool tips)
+[BepKLC]: https://bepo.fr/wiki/Utilisateur:LeBret/Remplacer_AltGr_par_Kana                          (Bépo on changing a key using kbdutool)
+[ARMKLC]: https://learn.microsoft.com/en-au/answers/questions/2151451/microsoft-keyboard-layout-creator-(msklc)-for-wind (Building .dll for ARM)

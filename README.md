@@ -8,7 +8,8 @@ _The Gralmak layout on an Ortho keyboard_
 <br><br>
 
 ## Work-In-Progress
-For now, there isn't much in this repo. Please consult the [Gralmak layout folder][GralEP] in my [EPKL][PKLGit] program for info.
+- For now, there isn't much in this repo. Please consult the [Gralmak layout folder][GralEP] in my [EPKL][PKLGit] program for info.
+- There are a few downloads ready in the Files folder though. More to come, fairly soon I hope.
 <br><br>
 
 
@@ -37,3 +38,5 @@ For now, there isn't much in this repo. Please consult the [Gralmak layout folde
 [CoDeKy]: https://github.com/DreymaR/BigBagKbdTrixPKL/blob/master/README.md#advanced-composecodekey (The EPKL README on the CoDeKey)
 [Gal-QZ]: https://github.com/GalileoBlues/Gallium/issues/6#issuecomment-2665066910      (Discussing a Q-Z swap w/ almk on the Gallium repo)
 [GraPct]: https://github.com/rdavison/graphite-layout/issues/2#issuecomment-2787752575  (Discussing Graphite punctuation and Wide mods on its repo)
+
+[Kanata]: https://github.com/jtroo/kanata                                               (The Kanata multiplatform layout program)
