@@ -1,10 +1,11 @@
-# Gralmak
-The Gralmak keyboard layout is a Graphite-Gallium variant that keeps closer to familiar layouts without sacrificing significant quality.
+<h1 align=center>Gralmak</h1>
 <br><br>
 
-![Gralmak Ortho help image](_res/img/Gralmak_Orth-Cpt_EPKL.png)
+<div align="center"><img alt="Gralmak Ortho EPKL help image" src="_res/img/Gralmak_Orth-Cpt_EPKL.png"></div>
+<br><br>
 
-_The Gralmak layout on an Ortho keyboard_
+## The Gralmak keyboard layout
+Gralmak is a Graphite-Gallium variant that keeps closer to familiar layouts without sacrificing significant quality.
 <br><br>
 
 ## Work-In-Progress
