@@ -1,8 +1,6 @@
-<h1 align=center>Gralmak</h1>
-<br><br>
+<h1 align=center line-height=1.6>Gralmak</h1><br><br>
 
-<div align="center"><img alt="Gralmak Ortho EPKL help image" src="_res/img/Gralmak_Orth-Cpt_EPKL.png"></div>
-<br><br>
+<div align="center"><img alt="Gralmak Ortho EPKL help image" src="_res/img/Gralmak_Orth-Cpt_EPKL.png"></div><br>
 
 ## The Gralmak keyboard layout
 Gralmak is a Graphite-Gallium variant that keeps closer to familiar layouts without sacrificing significant quality.
