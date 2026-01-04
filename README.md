@@ -8,7 +8,7 @@ Gralmak is a Graphite-Gallium variant that keeps closer to familiar layouts with
 <br><br>
 
 ## Work-In-Progress
-- For now, there isn't much in this repo. Please consult the [Gralmak layout folder][GralEP] in my [EPKL][PKLGit] program for info.
+- For now, there isn't all that much in this repo. Please consult the [Gralmak layout folder][GralEP] in my [EPKL][PKLGit] program for info.
 - There are a few downloads ready in the Files folder though. More to come, fairly soon I hope.
 
 
@@ -154,7 +154,15 @@ This progression might be useful if you wish to practice some smaller loops firs
 
 <br>
 
-<h1 align=center>⌨&nbsp;&nbsp;&nbsp;⌨&nbsp;&nbsp;&nbsp;⌨&nbsp;&nbsp;&nbsp;⌨&nbsp;&nbsp;&nbsp;⌨&nbsp;&nbsp;&nbsp;⌨&nbsp;&nbsp;&nbsp;⌨</h1>
+<h1 align=center>⌨&nbsp;&nbsp;&nbsp;⌨&nbsp;&nbsp;&nbsp;⌨&nbsp;&nbsp;&nbsp;⌨&nbsp;&nbsp;&nbsp;⌨</h1>
+
+<br><br>
+
+## TODO/WIP
+- Introduce both Gralmaks and Gralmak(s)-Sym. Explain how they work together.
+- "Grallium" is a fun name for the layout family.
+- Discuss in-/outrolls vs alternation etc.
+	https://www.reddit.com/r/KeyboardLayouts/comments/1pzhwhh/comment/nwrnp3k/
 
 
 [GraGit]: https://github.com/rdavison/graphite-layout#graphite-keyboard-layout          (The Graphite layout on GitHub)
