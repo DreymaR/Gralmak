@@ -8,7 +8,7 @@ Gralmak is a Graphite-Gallium variant that keeps closer to familiar layouts with
 <br><br>
 
 ## Work-In-Progress
-- For now, there isn't much in this repo. Please consult the [Gralmak layout folder][GralEP] in my [EPKL][PKLGit] program for info.
+- For now, there isn't all that much in this repo. Please consult the [Gralmak layout folder][GralEP] in my [EPKL][PKLGit] program for info.
 - There are a few downloads ready in the Files folder though. More to come, fairly soon I hope.
 
 
@@ -154,7 +154,22 @@ This progression might be useful if you wish to practice some smaller loops firs
 
 <br>
 
-<h1 align=center>⌨&nbsp;&nbsp;&nbsp;⌨&nbsp;&nbsp;&nbsp;⌨&nbsp;&nbsp;&nbsp;⌨&nbsp;&nbsp;&nbsp;⌨&nbsp;&nbsp;&nbsp;⌨&nbsp;&nbsp;&nbsp;⌨</h1>
+<h1 align=center>⌨&nbsp;&nbsp;&nbsp;⌨&nbsp;&nbsp;&nbsp;⌨&nbsp;&nbsp;&nbsp;⌨&nbsp;&nbsp;&nbsp;⌨</h1>
+
+<br><br>
+
+## TODO/WIP
+- Add Gralmak to MonkeyType and Keybr?
+- Introduce both Gralmaks and Gralmak(s)-Sym. Explain how they work together.
+- Discuss in-/outrolls vs alternation etc.
+	https://www.reddit.com/r/KeyboardLayouts/comments/1pzhwhh/comment/nwrnp3k/
+- "Grallium" is a fun name for the layout family.
+- Make a forum for discussing the Grallium layout family, in lieu of a Discord server? On GitHub?
+	- Alt-fingering of SC SW PH ...
+	- Troublesome bi-/skipgrams: DM/MD, LR/RL ('world', 'clearly')
+	- Troublesome LSBs: NG
+	- Fun bigrams over rows: LS LT DS OH AU UH. Involve mostly the middle fingers.
+	- 
 
 
 [GraGit]: https://github.com/rdavison/graphite-layout#graphite-keyboard-layout          (The Graphite layout on GitHub)
@@ -164,12 +179,12 @@ This progression might be useful if you wish to practice some smaller loops firs
 [NrpGra]: https://www.reddit.com/r/KeyboardLayouts/comments/tpwyjc/comment/jck98z6/     (Graphite comment in the Nerps post on Reddit)
 [GraSci]: https://github.com/rdavison/graphite-layout/blob/main/README.md#on-scissors   (The Graphite README on Scissors)
 [PKLGit]: https://github.com/DreymaR/BigBagKbdTrixPKL/                                  (The EPKL keyboard layout program for Windows)
-[CmkPKL]: https://github.com/DreymaR/BigBagKbdTrixPKL/tree/master/Layouts/Colemak/                      (The Colemak layout in EPKL)
-[StrPKL]: https://github.com/DreymaR/BigBagKbdTrixPKL/tree/master/Layouts/Sturdy/                       (The Sturdy layout in EPKL)
-[GalPKL]: https://github.com/DreymaR/BigBagKbdTrixPKL/tree/master/Layouts/Gallium/                      (The Gallium layout in EPKL)
-[GalrEP]: https://github.com/DreymaR/BigBagKbdTrixPKL/tree/master/Layouts/Gallium/README.md#galliard    (The Galliard Gallium layout variant)
-[GraPKL]: https://github.com/DreymaR/BigBagKbdTrixPKL/tree/master/Layouts/Graphite/                     (The Graphite layout in EPKL)
-[GralEP]: https://github.com/DreymaR/BigBagKbdTrixPKL/tree/master/Layouts/Gralmak                       (The Gralmak layout variant in EPKL)
+[CmkPKL]: https://github.com/DreymaR/BigBagKbdTrixPKL/tree/master/Layouts/Colemak#colemak               (The Colemak layout in EPKL)
+[StrPKL]: https://github.com/DreymaR/BigBagKbdTrixPKL/tree/master/Layouts/Sturdy#sturdy                 (The Sturdy layout in EPKL)
+[GalPKL]: https://github.com/DreymaR/BigBagKbdTrixPKL/tree/master/Layouts/Gallium#gallium               (The Gallium layout in EPKL)
+[GalrEP]: https://github.com/DreymaR/BigBagKbdTrixPKL/tree/master/Layouts/Gallium#galliard              (The Galliard Gallium layout variant)
+[GraPKL]: https://github.com/DreymaR/BigBagKbdTrixPKL/tree/master/Layouts/Graphite#graphite             (The Graphite layout in EPKL)
+[GralEP]: https://github.com/DreymaR/BigBagKbdTrixPKL/tree/master/Layouts/Gralmak#gralmak               (The Gralmak layout variant in EPKL)
 [Galite]: https://github.com/almk-dev/galite/                                           (The Galite variant, nearly equal to Gralmak - now removed)
 [ErgAWi]: https://dreymar.colemak.org/ergo-mods.html#angle-wide                         (DreymaR's BigBag on Angle+Wide ergo mods)
 [ErgCrl]: https://dreymar.colemak.org/ergo-mods.html#curl-dh                            (DreymaR's BigBag on the Curl-DH ergo mod)
