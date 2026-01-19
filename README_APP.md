@@ -23,7 +23,7 @@ Sturdy (Oxey, 2022-07)
 ```
 <br>
 
-- Several other layouts like [Nerps][NrpRed]/Nerts/Nerbs and Maya are clearly family members.
+- Several other layouts like [Nerps][NrpGra]/Nerts/Nerbs and Maya are clearly family members.
 - These mostly have the `NRTS HAEI` home position and the column similarities listed above, but differ in minor aspects.
 ```
 Nerps (Smudge, 2022-03)
@@ -64,9 +64,59 @@ Gralmak (DreymaR)
 ```
 <br><br>
 
+## Experiences
+Here are some observations and thoughts about Gralmak's patterns – both good ones and bad ones. 
+Keep in mind that all layouts have such strengths and weaknesses in varying amounts. 
+The "Mythical Holy Grail Of Layouts" in all likelihood doesn't exist! 
+We may still try to find layouts that are as good as possible for as many as possible.
+<br><br>
+
+#### The Good
+Pleasant bigrams I've noticed (there are lots of these):
+- Fun multi-row bigrams: `LS LT DS`; `OH AU UH`. 
+	- These involve mostly the middle fingers. They are "good scissors"!
+- Fun upper-row bigrams: `LD DW LW`; `FO OU FU`. 
+	- There seems to be more of these than in Colemak. Grallium uses the upper row better.
+<br>
+
+#### The Bad
+Troublesome bigrams:
+- Bad SFBs (same-finger): `UE/EU`, `LR/RL` ('world', 'clearly'), `OA/AO`.
+	- These are all 1-row scissors ("half-scissors").
+	- On standard Gralmak without a punctuation solution, also some `E.` and `O ,`.
+	- GralmakS fixes these two.
+- Bad scissors (row-skips): `DM/MD`, both as SFB and skipgram.
+	- There are clearly fewer scissors than on Colemak, though. I didn't notice that at first.
+- Not-so-good LSBs (lateral stretch):
+	- `NG/GN`: Not too common actually. If you're not too grounded, it doesn't matter much.
+	- `GT/TG`: Alt w/ `Ind-Ring`. In 'strength' (direct), 'right' (skip).
+<br><br>
+
+```
+  b l d w q  j f o u '  
+  n r t s g  y h a e i              Gralmak
+  z x m c v  k p , . /  
+```
+<br>
+
+#### The Alty
+I routinely alt-finger the `SC SW GS` and `PH HY KY FY` SFBs.
+- It feels good and easy to do so, at least on row-stag.
+- I type the `PHY` trigram w/ `Ind-Mid-Ind`.
+<br>
+
+#### The Pinky
+According to GalileoBlues (Brys), Gallium is more pinky/ring intense than Colemak.
+- As pointed out earlier, period+Comma on the same pinky is the reason for that.
+- Cyanophage: Colemak/Graphite/Gallium left pinky(%) 8.2/8.4/8.4; right pinky 8.4/8.4/9.3.
+- Looks like Gallium pays for low SFBs with pinky usage, while Graphite and Gralmak(S) avoid this.
+
+<br><br>
+
 ## Gralmak Analysis
-- Below is a comparison of the Graphite layout and the Gralmak variant, disregarding most punctuation.
-- It's made by the [cmini][Acmini] analyzer at the AKL Discord, with thumb-key for common punctuation.
+Below is a comparison of the Graphite layout and the Gralmak variant, disregarding most punctuation. 
+It's made by the [cmini][Acmini] analyzer at the AKL Discord, with thumb-key for common punctuation.
+
 - As shown, the differences consist of swapping `J` and `QU`, and swapping `Z` and `Q`.
 - All overall stat differences are so small that I don't think they can be considered significant.
 
@@ -202,21 +252,22 @@ This progression might be useful if you wish to practice some smaller loops firs
 <br><br>
 
 ## TODO/WIP
-- Tough choice: Should plain Gralmak _not_ use the SC-QU swap?!? For max compatibility with QWERTY/Colemak.
-	- In this case, GralmakS with its Sym mod will be preferable for non-Wide applications.
-	- I think not. For one, QU is inside the letter block in Graphite. And I like that position a lot.
-	- Make it clear, then, that the SC-QU swap is a possibility for users who don't prefer this way.
-- Add Gralmak to MonkeyType and Keybr?
-- Introduce both Gralmaks and Sym. Explain how they work together
-	- There's only one Gralmaks, incorporating Sym. Otherwise, madness.
-- Discuss in-/outrolls vs alternation etc.
+- Add Gralmak(S) to MonkeyType and Keybr? Maybe only GralmakS?
+- Discuss in-/outrolls vs alternation etc.?
 	https://www.reddit.com/r/KeyboardLayouts/comments/1pzhwhh/comment/nwrnp3k/
 - Make a forum for discussing the Grallium layout family, in lieu of a Discord server? On GitHub?
-	- Alt-fingering of SC SW GS   PH HY KY ...
-	- Troublesome bi-/skipgrams: DM/MD, LR/RL ('world', 'clearly')
-	- Troublesome LSBs: NG
-	- Fun bigrams over rows: LS LT DS OH AU UH. Involve mostly the middle fingers.
-	- 
+	- The Graphite and Gallium creators don't seem interested. They've both moved on to new projects.
+
+<br>
+
+## DONE
+- Experiences writeup.
+- Introduce the Gralmaks and Sym mods. Explain how they work together.
+	- I'll only implement one Gralmaks variant, incorporating Sym, as the default Gmk-Sym. Otherwise, madness.
+- Should plain Gralmak _not_ use the SC-QU swap?!? For max compatibility with QWERTY/Colemak.
+	- In this case, I'd generally recommend GralmakS with the Sym mod for most non-Wide applications.
+	- I think not. For one, QU is inside the letter block in Graphite. And I like that position a lot.
+	- Make it clear, then, that the SC-QU non-swap is a possibility for those who feel otherwise.
 
 <br>
 

@@ -10,12 +10,12 @@ Gralmak is a Graphite-Gallium variant that keeps closer to familiar layouts with
 ## About Gralmak
 - This layout was made by DreymaR (that's me!), 2024-11.
 - It is a variant of [Graphite][GraGit] by StronglyTyped and [Gallium][GalGit] by GalileoBlues. These layouts are very similar.
-- Gallium/Graphite are in turn related to other recent layouts, like [Sturdy][Sturdy] by Oxey and [Nerps][NrpGra] by Smudge.
+- Gallium/Graphite are in turn related to other recent layouts, like [Sturdy][Sturdy] by Oxey and [Nerps][NrpRed] by Smudge.
 <br>
 
 ![Gralmak Angle-ANSI help image](_res/img/Gralmak_ANS-A_EPKL.png)
 
-_The Gralmak layout (using the Angle mod) on an ANSI keyboard_
+_The Gralmak layout (using the Angle mod for XMCVZ) on an ANSI keyboard_
 
 <br>
 
@@ -38,20 +38,19 @@ The name is a play on Graphite-Gallium-Colemak, and our quest for the mythical "
 
 <div align=center ><img src="_res/img/Grail-Chalice.png" style="width:30%;height:auto"></div><br>
 
-#### Gralmak on an ortho board
-```
-+----------------------------+
-| 1 2 3 4 5   6 7 8 9 0  - = |
-| b l d w q   j f o u '  [ ] |
-| n r t s g   y h a e i  ; \ |
-| z x m c v   k p , . /      |
-+----------------------------+
-```
-<br>
-
 - Gralmak manages to satisfy newer analyzers and still keep some similarity to well-known layouts like Colemak.
 - For instance, only `L N M` and `F A E` swap hands from QWERTY; `L N M` and `F A P` from Colemak.
 - The familiar `QW RT ZX CV` bigrams are (semi-)preserved, aiding learning and recognition.
+<br>
+
+```
++----------------------------+
+| 1 2 3 4 5   6 7 8 9 0  - = |
+| b l d w q   j f o u '  [ ] |    Gralmak
+| n r t s g   y h a e i  ; \ |    on an ortho keyboard
+| z x m c v   k p , . /      |
++----------------------------+
+```
 <br>
 
 Some more info may be found in the [Gralmak layout folder][GmkPKL] of my [EPKL][PKLGit] program.
@@ -91,19 +90,17 @@ In the [Appendix](./README_APP.md#meet-the-family) you may read a little more ab
 - You'll have to decide whether that's useful for you.
 
 ```
-Gralmak:
 +----------------------------+
 | 1 2 3 4 5   6 7 8 9 0  - = |
-| b l d w q   j f o u '  [ ] |
-| n r t s g   y h a e i  ; \ |
+| b l d w q   j f o u '  [ ] |    Gralmak
+| n r t s g   y h a e i  ; \ |    (unmodified)
 | z x m c v   k p , . /      |
 +----------------------------+
 
-GralmakS (non-Wide Sym mod):
 +----------------------------+
 | 1 2 3 4 5   6 7 8 9 0  [ ] |
-| b l d w q   j f o u '  - = |
-| n r t s g   y h a e i  ; \ |
+| b l d w q   j f o u '  - = |    GralmakS 
+| n r t s g   y h a e i  ; \ |    (non-Wide Sym mod)
 | z x m c v   k p . / ,      |
 +----------------------------+
 ```
@@ -114,19 +111,17 @@ GralmakS (non-Wide Sym mod):
 - At the same time, Gallium achieves this by placing both comma and period on off-home-row pinky keys. That may be overmuch?
 
 ```
-Graphite symbols:
 +----------------------------+
 |                        [ ] |
-|             '   o u    ; = |
-|               h a e i  , \ |
+|             '   o u    ; = |    Graphite
+|               h a e i  , \ |    symbols
 |                 . - /      |
 +----------------------------+
 
-Gallium symbols:
 +----------------------------+
 |                        - = |
-|                 o u ,  [ ] |
-|               h a e i  /   |
+|                 o u ,  [ ] |    Gallium
+|               h a e i  /   |    symbols
 |                 ' ; .      |
 +----------------------------+
 ```
@@ -159,19 +154,49 @@ _Gralmak-WideSym on an Ortho keyboard._
 ```
 +----------------------------+
 | 1 2 3 4 5 6 \ 7 8 9 0 =    |
-|  b l d w q [ j f o u ' - ; |      ANSI
+|  b l d w q [ j f o u ' - ; |    ANSI
 |  n r t s g ] y h a e i     |    keyboard
 |   x m c v z / k p , .      |
 +----------------------------+
 
 +----------------------------+
 | 1 2 3 4 5 6 \ 7 8 9 0 =    |
-|  b l d w q [ j f o u ' -   |      ISO
+|  b l d w q [ j f o u ' -   |    ISO
 |  n r t s g ] y h a e i ;   |    keyboard
 | z x m c v   / k p , .      |
 +----------------------------+
 ```
 
+<br><br>
+
+## Experiences
+After 18+ years of using Colemak plus some ergo mods, I devised Gralmak and reached a decent (at least 80-ish WPM) speed on it. 
+I've told about some experiences with that on my BigBag <a href="https://dreymar.colemak.org/layers-base#delving-too-greedily"><b>Base Layout</b></a> page (open the "Still, what about ..." spoiler box).
+
+The short version of it is: Gralmak feels good! But then, so did Colemak too.
+
+Some Gralmak-related points from my BigBag page:
+> - Gralmak and Graphite/Gallium have several delightful n-grams.
+> - More than Colemak, it uses all three rows without much scissoring.
+> - The bottom row of Gralmak goes `ZXMCV`. 
+>   - Keeping `ZXCV` close to their familiar places is an asset to some.
+<br>
+
+> - As a physicist, I notice that PHY is worse on Graphite.
+> - Another bad one is RL/LR in words like 'world'; it's rare but on a ring finger.
+> - UE/EU is a bad SFB pair on both layouts. 
+>   - It's a little worse on Graphite/Gallium as it uses the ring finger.
+> - Lateral stretches for 'YOU' and 'NG/GN' feel less than ideal. 
+>   - Overall though, Gralmak has less LSBs.
+<br>
+
+Other than this, a distinguishing feature of Gralmak is its higher alternation. 
+Most typists feel that a good inward roll beats alternation, but bad same-hand trigrams such as redirects/pinballs are a lot worse. 
+So while Colemak has some good rolls going for it, Gralmak avoids some of its sticky patterns with its higher alternation. 
+
+When typing, I tend not to notice alternations – while good same-hand patterns feel great and problematic ones feel bad.
+
+For more observations and thoughts, see the [Appendix](./README_APP.md#experiences).
 <br><br>
 
 ## Gralmak Analysis
