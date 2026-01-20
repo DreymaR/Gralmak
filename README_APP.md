@@ -66,9 +66,9 @@ Gralmak (DreymaR)
 
 ## Experiences
 Here are some observations and thoughts about Gralmak's patterns – both good ones and bad ones. 
-Keep in mind that all layouts have such strengths and weaknesses in varying amounts. 
-The "Mythical Holy Grail Of Layouts" in all likelihood doesn't exist! 
-We may still try to find layouts that are as good as possible for as many as possible.
+- Keep in mind that all layouts have such strengths and weaknesses in varying amounts. 
+- The "Mythical Holy Grail Of Layouts" in all likelihood doesn't exist! 
+- We may still work to find layouts that are as good as possible for as many as possible.
 <br><br>
 
 #### The Good
@@ -87,9 +87,15 @@ Troublesome bigrams:
 	- GralmakS fixes these two.
 - Bad scissors (row-skips): `DM/MD`, both as SFB and skipgram.
 	- There are clearly fewer scissors than on Colemak, though. I didn't notice that at first.
-- Not-so-good LSBs (lateral stretch):
+<br>
+
+#### The Just-A-Bit-Annoying
+- LSBs (lateral stretch):
 	- `NG/GN`: Not too common actually. If you're not too grounded, it doesn't matter much.
 	- `GT/TG`: Alt w/ `Ind-Ring`. In 'strength' (direct), 'right' (skip).
+- Redirects:
+	- `UOU`: In, e.g., 'arduous'. This one seems hard to avoid. 'Joyous' has stretch-pinballing.
+	- There are generally few redirects.
 <br><br>
 
 ```
@@ -110,6 +116,13 @@ According to GalileoBlues (Brys), Gallium is more pinky/ring intense than Colema
 - As pointed out earlier, period+Comma on the same pinky is the reason for that.
 - Cyanophage: Colemak/Graphite/Gallium left pinky(%) 8.2/8.4/8.4; right pinky 8.4/8.4/9.3.
 - Looks like Gallium pays for low SFBs with pinky usage, while Graphite and Gralmak(S) avoid this.
+<br>
+
+#### The Doubled
+The most common double letters in English are `LL EE SS OO TT FF RR NN PP CC`.
+- Only `LL` and `PP` stand out in Gralmak, being in weakish off-homerow spots.
+- `LL` is the one I've noticed, as it's the most common same-letter bigram (0.6% of all bigrams).
+- I do recommend using a [Repeat][BBTrep] key. It feels great overall, and particularly for this issue.
 
 <br><br>
 
@@ -273,6 +286,7 @@ This progression might be useful if you wish to practice some smaller loops firs
 
 <h1 align=center>⌨&nbsp;&nbsp;&nbsp;⌨&nbsp;&nbsp;&nbsp;⌨&nbsp;&nbsp;&nbsp;⌨&nbsp;&nbsp;&nbsp;⌨</h1>
 
+[BBTrep]: https://dreymar.colemak.org/layers-main.html#repeating                        (DreymaR's BigBag on repeating)
 [Acmini]: https://github.com/Apsu/cmini                                                 (Apsu's cmini layout analyzer)
 [AnaHom]: https://github.com/O-X-E-Y/oxeylyzer                                          (The Oxeylyzer layout analyzer home page)
 [Kanata]: https://github.com/jtroo/kanata                                               (The Kanata multiplatform layout program)
@@ -296,6 +310,6 @@ This progression might be useful if you wish to practice some smaller loops firs
 [ErgAWi]: https://dreymar.colemak.org/ergo-mods.html#angle-wide                         (DreymaR's BigBag on Angle+Wide ergo mods)
 [ErgCrl]: https://dreymar.colemak.org/ergo-mods.html#curl-dh                            (DreymaR's BigBag on the Curl-DH ergo mod)
 [ErgSym]: https://dreymar.colemak.org/ergo-mods.html#symbols                            (DreymaR's BigBag on the Symbols ergo mod)
-[BBTseq]: https://dreymar.colemak.org/layers-main.html#sequences                        (DreymaR's BigBag on sequencing)
+[BBTseq]: https://dreymar.colemak.org/layers-main.html#sequencing                       (DreymaR's BigBag on sequencing)
 [BBTtmk]: https://dreymar.colemak.org/tarmak-intro.html                                 (DreymaR's Big Bag on Tarmak transitions)
 [CoDeKy]: https://github.com/DreymaR/BigBagKbdTrixPKL/blob/master/README.md#advanced-composecodekey (The EPKL README on the CoDeKey)
