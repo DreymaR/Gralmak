@@ -173,28 +173,42 @@ _Gralmak-WideSym on an Ortho keyboard._
 After 18+ years of using Colemak plus some ergo mods, I devised Gralmak and reached a decent (at least 80-ish WPM) speed on it. 
 I've told about some experiences with that on my BigBag <a href="https://dreymar.colemak.org/layers-base#delving-too-greedily"><b>Base Layout</b></a> page (open the "Still, what about ..." spoiler box).
 
-The short version of it is: Gralmak feels good! But then, so did Colemak too.
+The short version of it is: Gralmak feels good! But then, so does Colemak. 
+The quality difference isn't at all as huge as some make it out to be. 
+And some of it may be mostly up to preferences and experience.
 
-Some Gralmak-related points from my BigBag page:
-> - Gralmak and Graphite/Gallium have several delightful n-grams.
-> - More than Colemak, it uses all three rows without much scissoring.
+Some Grallium (Gralmak/Graphite/Gallium/++) related points distilled from the BigBag layout page:
+> - Grallium have several delightful n-grams.
+> - More than on Colemak, all three rows are in use without much scissoring.
 > - The bottom row of Gralmak goes `ZXMCV`. 
 >   - Keeping `ZXCV` close to their familiar places is an asset to some.
 <br>
 
-> - As a physicist, I notice that PHY is worse on Graphite.
-> - Another bad one is RL/LR in words like 'world'; it's rare but on a ring finger.
-> - UE/EU is a bad SFB pair on both layouts. 
->   - It's a little worse on Graphite/Gallium as it uses the ring finger.
-> - Lateral stretches for 'YOU' and 'NG/GN' feel less than ideal. 
->   - Overall though, Gralmak has less LSBs.
+> - As a physicist, I notice that `PHY` is worse on Gralmak.
+> - Another bad one is `RL/LR` in words like 'world'; it's rare but on a ring finger.
+> - `UE/EU`, correspondingly, is a bad SFB pair on both layouts. 
+>   - It's in fact a little worse on Grallium as it uses the ring finger.
+> - Lateral stretches for `YOU` and `NG/GN` feel less than ideal but it's no biggie. 
+>   - Overall though, Grallium layouts have less LSBs than Colemak.
 <br>
 
-Other than this, a distinguishing feature of Gralmak is its higher alternation. 
-Most typists feel that a good inward roll beats alternation, but bad same-hand trigrams such as redirects/pinballs are a lot worse. 
-So while Colemak has some good rolls going for it, Gralmak avoids some of its sticky patterns with its higher alternation. 
+One distinguishing feature of Grallium is a higher alternation (switching hands) compared to Colemak. 
+Most typists feel that a good inward roll beats alternation, but bad same-hand trigrams (redirects/"pinballs") are a lot worse. 
+So while Colemak has some good rolls going for it, Grallium layouts avoid some of its sticky patterns with higher alternation. 
 
 When typing, I tend not to notice alternations – while good same-hand patterns feel great and problematic ones feel bad.
+
+My overall impression of typing with Grallium is very positive. 
+I've heard that the ideal must be to type a bi- or trigram before alternating: 
+It does feel like these layouts hit a good balance on that account. 
+Especially since most of those one-hand n-grams have a nice flow to them. 
+
+Compared to Colemak, I feel that Grallium layouts use the upper row more actively. 
+There are some nice bigrams that either fall on the upper row or half-scissor between upper and home row in a pleasant way. 
+
+The pinky and ring fingers are also used more to some extent, which may be a point to watch out for! 
+Some users have untrained or anatomically challenged pinkies and/or ring fingers: 
+For these I'd recommend learning Colemak(-DH) instead of a Grallium layout.
 
 For more observations and thoughts, see the [Appendix](./README_APP.md#experiences).
 <br><br>

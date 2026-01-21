@@ -116,6 +116,7 @@ According to GalileoBlues (Brys), Gallium is more pinky/ring intense than Colema
 - As pointed out earlier, period+Comma on the same pinky is the reason for that.
 - Cyanophage: Colemak/Graphite/Gallium left pinky(%) 8.2/8.4/8.4; right pinky 8.4/8.4/9.3.
 - Looks like Gallium pays for low SFBs with pinky usage, while Graphite and Gralmak(S) avoid this.
+- All Grallium layouts still have higher pinky and ring finger usage than Colemak.
 <br>
 
 #### The Doubled
