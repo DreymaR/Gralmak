@@ -77,15 +77,29 @@ In the [Appendix](./README_APP.md#meet-the-family) you may read a little more ab
 - Depending on your use case you may want to apply further Sym and/or Wide ergo mods to Gralmak.
 <br>
 
-### Gralmak Sym - GralmakS
-- Standard Gralmak keeps punctuation unmoved from QWERTY, like Colemak and some other layouts do.
-    - The one exception is the apostrophe/quote (QU) key, which I kept in the letter block like Graphite does.
-    - Another reason is that I can use a special thumb [CoDeKey][CoDeKy] for most punctuation.
-- However, if you type text with punctuation with Gralmak and don't have access to such a special key, there will be some issues.
-- The main issues according to Cyanophage's analyzer are the `E.` SFB (0.14%) and the `O ,` skip-1-gram (0.07%).
+### GralmakS
+GralmakS is a [Symbol mod][ErgSym] for Gralmak. 
+In my implementations, it's really a bundle of GralmakS itself which addresses the `.` `/` `,` keys only, 
+and a non-Wide Sym mod (for WideSym Gralmak, see [below](#gralmak-widesym)) that addresses the hyphen-minus key. 
+<br><br>
+
+![GralmakS help image](_res/img/Gralmak_Orth-Cpt-S_EPKL.png)
+
+_GralmakS on an Ortho keyboard. Note its `.` `/` `,` key positions._
+
 <br>
 
-- GralmakS, at heart, is a mod variant that remaps `, / .` while keeping other punctuation unchanged.
+- The apostrophe-quote key is already moved in standard Gralmak: Like Graphite, I kept it in the letter block.
+    - Since the semicolon key is already displaced from QWERTY, this arrangement seems natural to me.
+    - As mentioned, you may reverse this `QU-SC` swap if you wish.
+- Standard Gralmak keeps most punctuation unmoved from QWERTY, like Colemak and some other layouts do.
+    - This makes Gralmak easier to learn and transition to. You can always address symbol keys later.
+    - Another reason is that I can use a special thumb [CoDeKey][CoDeKy] for most punctuation.
+- However, using Gralmak without a punctuation solution isn't quite ideal for text typing.
+- The main issues according to Cyanophage's analyzer are the `E.` SFB (0.14%) and the `O,` SFB+skipgram (0.09%).
+<br>
+
+- GralmakS, at heart, is a mod variant that swaps `,` `/` `.` while keeping other punctuation unchanged.
 - It has Graphite's period on the OA column. Both Gallium and Graphite place comma with I on the pinky.
 - You'll have to decide whether that's useful for you.
 
@@ -108,7 +122,7 @@ In the [Appendix](./README_APP.md#meet-the-family) you may read a little more ab
 
 - You could instead use Gallium or Graphite punctuation, if you prefer.
 - Gallium punctuation has somewhat lower SFB% according to [cmini][Acmini] analysis. Its period placement is most of the reason.
-- At the same time, Gallium achieves this by placing both comma and period on off-home-row pinky keys. That may be overmuch?
+- However, Gallium achieves this by placing both comma and period on off-home-row pinky keys which increases pinky usage.
 
 ```
 +----------------------------+
@@ -135,7 +149,8 @@ In the [Appendix](./README_APP.md#meet-the-family) you may read a little more ab
 
 ### Gralmak-WideSym
 - [**W**ide][ErgAWi] ergo mods (moving right-hand keys one position to the right) usually place the two bracket keys in the middle.
-- Wide/Sym modded Gralmak variants are fairly straightforward from base Gralmak, as it doesn't change any symbol keys apart from the apostrophe/semicolon.
+- Wide/Sym modded Gralmak variants are fairly straightforward from base Gralmak, as it doesn't change any tricky symbol keys.
+- I couldn't fit the [GralmakS](#gralmaks) mod that addresses the `,` `.` keys in with a Wide mod though.
 <br>
 
 - [**S**ym(bol)][ErgSym] mods usually prioritize the common <kbd>'"</kbd> (Apostrophe/Quote) and <kbd>-_</kbd> (Hyphen/Underscore) keys.
@@ -146,7 +161,7 @@ In the [Appendix](./README_APP.md#meet-the-family) you may read a little more ab
 
 ![Gralmak-WS help image](_res/img/Gralmak_Orth-WS_EPKL.png)
 
-_Gralmak-WideSym on an Ortho keyboard._
+_Gralmak-WideSym on an Ortho keyboard_
 
 <br>
 
