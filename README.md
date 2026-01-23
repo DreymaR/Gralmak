@@ -53,7 +53,7 @@ The name is a play on Graphite-Gallium-Colemak, and our quest for the mythical "
 ```
 <br>
 
-Some more info may be found in the [Gralmak layout folder][GmkPKL] of my [EPKL][PKLGit] program.
+Some more info plus an implementation for my [EPKL][PKLGit] program may be found in its [Gralmak layout folder][GmkPKL].
 <br><br>
 
 ## Meet The Family
