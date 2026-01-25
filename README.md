@@ -21,16 +21,16 @@ _The Gralmak layout (using the Angle mod for XMCVZ) on an ANSI keyboard_
 
 - I wanted to make a Graphite-Gallium variant with traditional symbol/punctuation placements.
 - Thus came about the Gralmak variant that's easily ergo modified like, e.g., Colemak-CAWS.
-- Like most other layouts, I didn't want to change the Shift states of keys.
+- Like most other layouts, I didn't want to change the Shift states of keys (Graphite does this).
 - Like the [Gallium][GalPKL] and [Colemak(-Sym)][CmkPKL] layouts, I want J in the middle and a symbol on pinky.
-- I decided to have the apostrophe/quote in the letter block by default, as I like that a lot.
+- I decided to have the apostrophe key in the letter block by default, as I like that a lot.
 - I also brought Z back to its familiar spot where QWERTY and Colemak has it.
 <br>
 
 - It's easier to learn for someone coming from QWERTY, Colemak, and other layouts that leave the symbol keys unchanged.
 - In this capacity, it can also be a stepping-stone to full Graphite or Gallium! Learn Gralmak first, then decide whether to proceed.
 - This incurs some worse punctuation bigrams. Since I use my thumb [CoDeKey][CoDeKy] for most punctuation, I don't care.
-- If you don't use punctuation solutions, you may instead use a symbol mod of your choice; see below.
+- If you don't use punctuation solutions, you may instead use a symbol mod of your choice; [see below](#gralmaks).
 <br>
 
 The name is a play on Graphite-Gallium-Colemak, and our quest for the mythical "Holy Grail" of layouts.
@@ -39,7 +39,7 @@ The name is a play on Graphite-Gallium-Colemak, and our quest for the mythical "
 <div align=center ><img src="_res/img/Grail-Chalice.png" style="width:30%;height:auto"></div><br>
 
 - Gralmak manages to satisfy newer analyzers and still keep some similarity to well-known layouts like Colemak.
-- For instance, only `L N M` and `F A E` swap hands from QWERTY; `L N M` and `F A P` from Colemak.
+- For instance, only `N L M` and `F A E` swap hands from QWERTY; `N L M` and `F P A` from Colemak.
 - The familiar `QW RT ZX CV` bigrams are (semi-)preserved, aiding learning and recognition.
 <br>
 
@@ -72,15 +72,15 @@ In the [Appendix](./README_APP.md#meet-the-family) you may read a little more ab
 ## Ergo Mods
 - An [**Angle**][ErgAWi] ergo mod is recommended for this layout on row-staggered boards.
 - Gralmak may be said to use the [**Curl**][ErgCrl] principle, by reducing lateral stretches to the middle home row positions.
-- By default, the only symbol keys it affects are quote (QU) and semicolon (SC).
+- By default, the only symbol keys it affects are apostrophe/quote (QU) and semicolon (SC).
 - Not moving the symbol keys makes it easier to learn and transition to, and adds flexibility.
-- Depending on your use case you may want to apply further Sym and/or Wide ergo mods to Gralmak.
+- Depending on your use case you may apply further Sym and/or Wide ergo mods to Gralmak.
 <br>
 
 ### GralmakS
 GralmakS is a [Symbol mod][ErgSym] for Gralmak. 
-In my implementations, it's really a bundle of GralmakS itself which addresses the `.` `/` `,` keys only, 
-and a non-Wide Sym mod (for WideSym Gralmak, see [below](#gralmak-widesym)) that addresses the hyphen-minus key. 
+In my implementations, it's really a bundle of the core GralmakS mod which addresses the `.` `/` `,` keys, 
+and a standard non-Wide Sym mod (for WideSym Gralmak, see [below](#gralmak-widesym)) that addresses the hyphen-minus key. 
 <br><br>
 
 ![GralmakS help image](_res/img/Gralmak_Orth-Cpt-S_EPKL.png)
@@ -91,7 +91,9 @@ _GralmakS on an Ortho keyboard. Note its `.` `/` `,` key positions._
 
 - The apostrophe-quote key is already moved in standard Gralmak: Like Graphite, I kept it in the letter block.
     - Since the semicolon key is already displaced from QWERTY, this arrangement seems natural to me.
-    - As mentioned, you may reverse this `QU-SC` swap if you wish.
+    - As mentioned, you may reverse this `QU-SC` swap if you prefer.
+<br>
+
 - Standard Gralmak keeps most punctuation unmoved from QWERTY, like Colemak and some other layouts do.
     - This makes Gralmak easier to learn and transition to. You can always address symbol keys later.
     - Another reason is that I can use a special thumb [CoDeKey][CoDeKy] for most punctuation.
@@ -120,31 +122,13 @@ _GralmakS on an Ortho keyboard. Note its `.` `/` `,` key positions._
 ```
 <br>
 
-- You could instead use Gallium or Graphite punctuation, if you prefer.
-- Gallium punctuation has somewhat lower SFB% according to [cmini][Acmini] analysis. Its period placement is most of the reason.
-- However, Gallium achieves this by placing both comma and period on off-home-row pinky keys which increases pinky usage.
-
-```
-+----------------------------+
-|                        [ ] |
-|             '   o u    ; = |    Graphite
-|               h a e i  , \ |    symbols
-|                 . - /      |
-+----------------------------+
-
-+----------------------------+
-|                        - = |
-|                 o u ,  [ ] |    Gallium
-|               h a e i  /   |    symbols
-|                 ' ; .      |
-+----------------------------+
-```
-<br>
-
 - My [**S**ym(bol)][ErgSym] ergo mods move the hyphen to a better position. GralmakS deserves that.
 - The brackets go up to the number row (`[ ]` / `- =`), as on Graphite. 
 	- Another option would be `= [` / `- ]`.
 - Unfortunately, Gralmaks doesn't play well with a Wide ergo mod since it displaces the comma.
+<br>
+
+You could instead use Gallium or Graphite punctuation, if you prefer. See the [Appendix](./README_APP.md#ergo-mods).
 <br>
 
 ### Gralmak-WideSym
@@ -155,7 +139,7 @@ _GralmakS on an Ortho keyboard. Note its `.` `/` `,` key positions._
 
 - [**S**ym(bol)][ErgSym] mods usually prioritize the common <kbd>'"</kbd> (Apostrophe/Quote) and <kbd>-_</kbd> (Hyphen/Underscore) keys.
 - For Wide variants, a Sym mod is beneficial. I've implemented Gralmak WideSym variants.
-- The quote-semicolon (QU-SC) swap is already a part of standard Gralmak. Feel free to reverse it if you wish, though.
+- The quote-semicolon (QU-SC) swap is already a part of standard Gralmak. Feel free to reverse it if you wish.
 - I prefer the hyphen (MN) next to QU on the upper row. Seems this is a matter of individual preference.
 <br>
 
@@ -165,19 +149,19 @@ _Gralmak-WideSym on an Ortho keyboard_
 
 <br>
 
-#### Gralmak AWS
+On ANSI and ISO keyboards, an Angle mod is added giving us Gralmak-AngleWideSym:
 ```
 +----------------------------+
 | 1 2 3 4 5 6 \ 7 8 9 0 =    |
-|  b l d w q [ j f o u ' - ; |    ANSI
-|  n r t s g ] y h a e i     |    keyboard
+|  b l d w q [ j f o u ' - ; |    Gralmak-AWS
+|  n r t s g ] y h a e i     |    ANSI keyboard
 |   x m c v z / k p , .      |
 +----------------------------+
 
 +----------------------------+
 | 1 2 3 4 5 6 \ 7 8 9 0 =    |
-|  b l d w q [ j f o u ' -   |    ISO
-|  n r t s g ] y h a e i ;   |    keyboard
+|  b l d w q [ j f o u ' -   |    Gralmak-AWS
+|  n r t s g ] y h a e i ;   |    ISO keyboard
 | z x m c v   / k p , .      |
 +----------------------------+
 ```
@@ -188,7 +172,7 @@ _Gralmak-WideSym on an Ortho keyboard_
 After 18+ years of using Colemak plus some ergo mods, I devised Gralmak and reached a decent (at least 80-ish WPM) speed on it. 
 I've told about some experiences with that on my BigBag <a href="https://dreymar.colemak.org/layers-base#delving-too-greedily"><b>Base Layout</b></a> page (open the "Still, what about ..." spoiler box).
 
-The short version of it is: Gralmak feels good! But then, so does Colemak. 
+The short version of it is: Gralmak/Grallium feels good! But then, so does Colemak. 
 The quality difference isn't at all as huge as some make it out to be. 
 And some of it may be mostly up to preferences and experience.
 
@@ -202,7 +186,7 @@ Some Grallium (Gralmak/Graphite/Gallium/++) related points distilled from the Bi
 > - As a physicist, I notice that `PHY` is worse on Gralmak.
 > - Another bad one is `RL/LR` in words like 'world'; it's rare but on a ring finger.
 > - `UE/EU`, correspondingly, is a bad SFB pair on both layouts. 
->   - It's in fact a little worse on Grallium as it uses the ring finger.
+>   - It's in fact a little worse on Grallium as it uses the ring finger there.
 > - Lateral stretches for `YOU` and `NG/GN` feel less than ideal but it's no biggie. 
 >   - Overall though, Grallium layouts have less LSBs than Colemak.
 <br>
@@ -220,6 +204,7 @@ Especially since most of those one-hand n-grams have a nice flow to them.
 
 Compared to Colemak, I feel that Grallium layouts use the upper row more actively. 
 There are some nice bigrams that either fall on the upper row or half-scissor between upper and home row in a pleasant way. 
+Personally, I like the upper row a lot. (Note: My middle fingers rest almost between the home and upper rows.)
 
 The pinky and ring fingers are also used more to some extent, which may be a point to watch out for! 
 Some users have untrained or anatomically challenged pinkies and/or ring fingers: 
@@ -230,7 +215,7 @@ For more observations and thoughts, see the [Appendix](./README_APP.md#experienc
 
 ## Gralmak Analysis
 I've done some simple layout analysis using the [cmini][Acmini] analyzer to confirm that apart from punctuation 
-(which I consider a separate matter) the Gralmak layout performs about as well as Gallium and Graphite. 
+(which I consider a separate or rather a modular matter) the Gralmak layout performs about as well as Gallium and Graphite. 
 There are minute differences, but they may well be within the uncertainty of analysis and are minor anyway.
 
 Keep in mind though, that analysis is far from everything!

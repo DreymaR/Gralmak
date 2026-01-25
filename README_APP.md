@@ -12,32 +12,37 @@ This page is for stuff that I consider too chonky for the main layout page.
 - A more serious one is "NRTS HAEI".
 <br>
 
-- The [Sturdy][StrPKL] layout came about as a result of the [Oxeylyzer][AnaHom] which includes some metrics that its predecessors didn't.
+- The [Sturdy][StrPKL] layout came about as a result of the [Oxeylyzer][AnaHom] analyzer which includes some metrics that its predecessors didn't.
 - Sturdy looks different from the family at first, especially with its different home position ...
 - ... but it does have at least `LR MT SV` and `FH OA UE` columns in common with most of the others.
 ```
 Sturdy (Oxey, 2022-07)
-  v m l c p  x f o u j  
+  v m l c p  x f o u j              (Sturdy is the default result of the Oxeylyzer)
   s t r d y  . n a e i -
   z k q g w  b h ' ; ,  
 ```
 <br>
 
-- Several other layouts like [Nerps][NrpGra]/Nerts/Nerbs and Maya are clearly family members.
+- Several (variants of) other layouts like Pine, [Nerps][NrpGra]/Nerts/Nerbs and Maya are clearly family members.
 - These mostly have the `NRTS HAEI` home position and the column similarities listed above, but differ in minor aspects.
 ```
+Pine-v4 (ClemenPine)
+  q l c m k  ' f u o y              (Earlier Pine variants were less similar to nrts haei)
+  n r s t w  p h e a i
+  j x z g v  b d ; , .
+
 Nerps (Smudge, 2022-03)
-  x l d p g  z k o u ;              (Nerts (Smudge, 2022-03) is another variant)
-  n r t s w  y h e i a              (`x p g v` -> `p g v x` from Nerps – swap `xvgp`)
+  x l d p g  z k o u ;              (Nerts is very similar to Nerps)
+  n r t s w  y h e i a              (`x p g v` -> `p g v x` – a `xvgp` swap)
   q j m c v  b f ' , .  
 
 Nerbs (Smudge)
-  b l d v j  z f o u ;  
+  b l d v j  z f o u ;              (Nerbs, too, is more similar to the other family layouts)
   n r t s g  y h a e i ,
   q x m c w  k p ' / .  
 
 Maya (adi.lela)
-  b l d g q  j f o u ,              (Designed with an Angle mod not shown here, for row-stag)
+  b l d g q  j f o u ,              (Designed with an Angle mod for row-stag, not shown here)
   n r t s v  k h a e i  
   z x m c w  p y ' / .  
 ```
@@ -45,11 +50,11 @@ Maya (adi.lela)
 
 - When it comes to Gralmak and its parents [Graphite][GraPKL] and [Gallium][GalPKL], they are practically the same layout.
 - The [cmini][Acmini] analyzer doesn't care about upper vs lower row, so it ignores the differences in `wz cv` positions.
-- The main differences are in punctuation placements. I consider that mostly a separate issue here.
+- The main differences are in punctuation placements. I consider that mostly a separate/modular issue here.
 ```
 Gallium (GalileoBlues)
-  b l d c v  j f o u ,              (This is the v2/row-stag version)
-  n r t s g  y h a e i              (`y p f` and `x q` positions are swapped in v1)
+  b l d c v  j f o u ,              (This is the v2 "row-stag" version)
+  n r t s g  y h a e i              (`y p f` and `x q` positions are swapped from v1)
   q x m w z  k p ' ; .  
 
 Graphite (StronglyTyped)
@@ -64,6 +69,46 @@ Gralmak (DreymaR)
 ```
 <br><br>
 
+## Ergo Mods
+Gralmak is quite easily modified for increased ergonomic performance, depending on your keyboard, ambitions and preferences.
+
+See my [Big Bag Ergo page][BBTerg] if you're interested in info about my standard ergo mods. It uses Colemak as an example.
+<br>
+
+### GralmakS
+My solution for a Gralmak Symbol mod is a combo of the GralmakS core mod, swapping `,` `/` `.`, and a standard Sym mod. 
+You could instead use Gallium or Graphite punctuation, if you prefer. See below.
+
+Note that Graphite changes the shifted states of the `'` `-` `,` `/` keys, to `_` `"` `?` `/` (instead of `"` `_` `<` `?`). 
+This may appeal to some and not to others. It may also be harder to implement for key mapping solutions.
+
+Gallium punctuation has somewhat lower SFB% according to [cmini][Acmini] analysis. Its period placement is most of the reason. 
+However, Gallium achieves this by placing both comma and period on off-home-row pinky keys which increases pinky usage.
+
+```
++----------------------------+
+|                        [ ] |
+|                 o u '  - = |    GralmakS
+|               h a e i  ; \ |    symbols
+|                 . / ,      |
++----------------------------+
+
++----------------------------+
+|                        [ ] |
+|             '   o u    ; = |    Graphite
+|               h a e i  , \ |    symbols
+|                 . - /      |
++----------------------------+
+
++----------------------------+
+|                        - = |
+|                 o u ,  [ ] |    Gallium
+|               h a e i  /   |    symbols
+|                 ' ; .      |
++----------------------------+
+```
+<br><br>
+
 ## Experiences
 Here are some observations and thoughts about Gralmak's patterns – both good ones and bad ones. 
 - Keep in mind that all layouts have such strengths and weaknesses in varying amounts. 
@@ -72,15 +117,17 @@ Here are some observations and thoughts about Gralmak's patterns – both good o
 <br><br>
 
 #### The Good
-Pleasant bigrams I've noticed (there are lots of these):
-- Fun multi-row bigrams: `LS LT DS`; `OH AU UH`. 
-	- These involve mostly the middle fingers. They are "good scissors"!
-- Fun upper-row bigrams: `LD DW LW`; `FO OU FU`. 
-	- There seems to be more of these than in Colemak. Grallium uses the upper row better.
-<br>
+I've noticed several pleasant Grallium bigrams that make typing fun and easy.
+- Fun multi-row bigrams: `LS LT DS`; `OH AU UH`.
+	- These are "good scissors"!
+	- They involve mostly the middle fingers.
+- Fun upper-row bigrams: `LD DW LW`; `FO OU FU`.
+	- There seems to be more of these than in Colemak.
+	- Grallium simply uses the upper row better, it seems?
+ <br>
 
 #### The Bad
-Troublesome bigrams:
+There are some troublesome n-grams in any layout. These increase strain.
 - Bad SFBs (same-finger): `UE/EU`, `LR/RL` ('world', 'clearly'), `OA/AO`.
 	- These are all 1-row scissors ("half-scissors").
 	- On standard Gralmak without a punctuation solution, also some `E.` and `O ,`.
@@ -90,12 +137,13 @@ Troublesome bigrams:
 <br>
 
 #### The Just-A-Bit-Annoying
+Some n-grams aren't so bad, but they may lead to hesitation and errors in my experience.
 - LSBs (lateral stretch):
 	- `NG/GN`: Not too common actually. If you're not too grounded, it doesn't matter much.
-	- `GT/TG`: Alt w/ `Ind-Ring`. In 'strength' (direct), 'right' (skip).
+	- `GT/TG`: Alt w/ `Index-Ring`. In 'strength' (direct), 'right' (skip).
 - Redirects:
 	- `UOU`: In, e.g., 'arduous'. This one seems hard to avoid. 'Joyous' has stretch-pinballing.
-	- There are generally few redirects.
+	- There are generally few Grallium redirects.
 <br><br>
 
 ```
@@ -108,7 +156,7 @@ Troublesome bigrams:
 #### The Alty
 I routinely alt-finger the `SC SW GS` and `PH HY KY FY` SFBs.
 - It feels good and easy to do so, at least on row-stag.
-- I type the `PHY` trigram w/ `Ind-Mid-Ind`.
+- I type the `PHY` trigram w/ `Index-Middle-Index`.
 <br>
 
 #### The Pinky
@@ -287,6 +335,7 @@ This progression might be useful if you wish to practice some smaller loops firs
 
 <h1 align=center>⌨&nbsp;&nbsp;&nbsp;⌨&nbsp;&nbsp;&nbsp;⌨&nbsp;&nbsp;&nbsp;⌨&nbsp;&nbsp;&nbsp;⌨</h1>
 
+[BBTerg]: https://dreymar.colemak.org/ergo-mods.html                                    (DreymaR's BigBag on ergo mods)
 [BBTrep]: https://dreymar.colemak.org/layers-main.html#repeating                        (DreymaR's BigBag on repeating)
 [Acmini]: https://github.com/Apsu/cmini                                                 (Apsu's cmini layout analyzer)
 [AnaHom]: https://github.com/O-X-E-Y/oxeylyzer                                          (The Oxeylyzer layout analyzer home page)
