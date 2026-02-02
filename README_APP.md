@@ -1,6 +1,6 @@
 <h1 align=center line-height=1.6>Gralmak</h1><br><br>
 
-<div align=center ><img src="_res/img/Gralmak_Orth-Cpt_EPKL.png" 
+<div align=center ><img src="/_res/img/Gralmak_Orth-Cpt_EPKL.png" 
                         alt="The Gralmak layout (EPKL help image)"></div><br>
 
 ## Gralmak Appendix
@@ -128,11 +128,11 @@ I've noticed several pleasant Grallium bigrams that make typing fun and easy.
 
 #### The Bad
 There are some troublesome n-grams in any layout. These increase strain.
-- Bad SFBs (same-finger): `UE/EU`, `LR/RL` ('world', 'clearly'), `OA/AO`.
+- Bad SFBs (same-finger): `UE/EU`, `LR/RL` ('world', 'clearly'), `TM/MT`, `OA/AO`.
 	- These are all 1-row scissors ("half-scissors").
 	- On standard Gralmak without a punctuation solution, also some `E.` and `O ,`.
 	- GralmakS fixes these two.
-- Bad scissors (row-skips): `DM/MD`, both as SFB and skipgram.
+- Bad scissors (row-skips): `DM/MD` ('admit'), `MB/BM` ('number'), both as SFBs and skipgrams.
 	- There are clearly fewer scissors than on Colemak, though. I didn't notice that at first.
 <br>
 
@@ -176,8 +176,12 @@ The most common double letters in English are `LL EE SS OO TT FF RR NN PP CC`.
 <br><br>
 
 ## Gralmak Analysis
+Should you want to compare layouts on the Cyanophage analyzer, here are links for [Gralmak][Cy-Gmk] and [GralmakS][Cy-GmkS]. 
+Copy a link into your browser and you'll see the analysis.
+<br><br>
+
 Below is a comparison of the Graphite layout and the Gralmak variant, disregarding most punctuation. 
-It's made by the [cmini][Acmini] analyzer at the AKL Discord, with thumb-key for common punctuation.
+It was made by the [cmini][Acmini] analyzer at the AKL Discord, using thumb keys for common punctuation.
 
 - As shown, the differences consist of swapping `J` and `QU`, and swapping `Z` and `Q`.
 - All overall stat differences are so small that I don't think they can be considered significant.
@@ -314,7 +318,8 @@ This progression might be useful if you wish to practice some smaller loops firs
 <br><br>
 
 ## TODO/WIP
-- Add Gralmak(S) to MonkeyType and Keybr? Maybe only GralmakS?
+- Add Gralmak(S) to MonkeyType and Keybr.
+- Add Cyanophage descriptors for Gralmak/GralmakS somewhere. In the Files folder readme?
 - Discuss in-/outrolls vs alternation etc.?
 	https://www.reddit.com/r/KeyboardLayouts/comments/1pzhwhh/comment/nwrnp3k/
 - Make a forum for discussing the Grallium layout family, in lieu of a Discord server? On GitHub?
@@ -324,7 +329,7 @@ This progression might be useful if you wish to practice some smaller loops firs
 
 ## DONE
 - Experiences writeup.
-- Introduce the Gralmaks and Sym mods. Explain how they work together.
+- Introduce the Gralmaks and generic Sym mods. Explain how they work together.
 	- I'll only implement one Gralmaks variant, incorporating Sym, as the default Gmk-Sym. Otherwise, madness.
 - Should plain Gralmak _not_ use the SC-QU swap?!? For max compatibility with QWERTY/Colemak.
 	- In this case, I'd generally recommend GralmakS with the Sym mod for most non-Wide applications.
@@ -335,6 +340,9 @@ This progression might be useful if you wish to practice some smaller loops firs
 
 <h1 align=center>⌨&nbsp;&nbsp;&nbsp;⌨&nbsp;&nbsp;&nbsp;⌨&nbsp;&nbsp;&nbsp;⌨&nbsp;&nbsp;&nbsp;⌨</h1>
 
+[Cy-CmkDH]: https://cyanophage.github.io/playground.html?layout=qwfpbjluy%3B-arstgmneio'zxcdvkh%2C.%2F\^
+[Cy-Gmk]:   https://cyanophage.github.io/playground.html?layout=bldwqjfou'-nrtsgyhaei%3Bzxmcvkp%2C.%2F\^
+[Cy-GmkS]:  https://cyanophage.github.io/playground.html?layout=bldwqjfou'-nrtsgyhaei%3Bzxmcvkp.%2F%2C\^
 [BBTerg]: https://dreymar.colemak.org/ergo-mods.html                                    (DreymaR's BigBag on ergo mods)
 [BBTrep]: https://dreymar.colemak.org/layers-main.html#repeating                        (DreymaR's BigBag on repeating)
 [Acmini]: https://github.com/Apsu/cmini                                                 (Apsu's cmini layout analyzer)
@@ -349,14 +357,14 @@ This progression might be useful if you wish to practice some smaller loops firs
 
 [GraGit]: https://github.com/rdavison/graphite-layout#graphite-keyboard-layout          (The Graphite layout on GitHub)
 [GalGit]: https://github.com/GalileoBlues/Gallium#gallium                               (The Gallium layout on GitHub)
-[GrlGit]: https://github.com/DreymaR/Gralmak#gralmak                                    (The Gralmak layout on GitHub)
+[GmkGit]: https://github.com/DreymaR/Gralmak#gralmak                                    (The Gralmak layout on GitHub)
 [NrpRed]: https://www.reddit.com/r/KeyboardLayouts/comments/tpwyjc/                     (The Nerps layout on Reddit)
 [CmkPKL]: https://github.com/DreymaR/BigBagKbdTrixPKL/tree/master/Layouts/Colemak#colemak               (The Colemak layout in EPKL)
 [StrPKL]: https://github.com/DreymaR/BigBagKbdTrixPKL/tree/master/Layouts/Sturdy#sturdy                 (The Sturdy layout in EPKL)
 [GalPKL]: https://github.com/DreymaR/BigBagKbdTrixPKL/tree/master/Layouts/Gallium#gallium               (The Gallium layout in EPKL)
 [GalrEP]: https://github.com/DreymaR/BigBagKbdTrixPKL/tree/master/Layouts/Gallium#galliard              (The Galliard Gallium layout variant)
 [GraPKL]: https://github.com/DreymaR/BigBagKbdTrixPKL/tree/master/Layouts/Graphite#graphite             (The Graphite layout in EPKL)
-[GralEP]: https://github.com/DreymaR/BigBagKbdTrixPKL/tree/master/Layouts/Gralmak#gralmak               (The Gralmak layout variant in EPKL)
+[GmkPKL]: https://github.com/DreymaR/BigBagKbdTrixPKL/tree/master/Layouts/Gralmak#gralmak               (The Gralmak layout variant in EPKL)
 [ErgAWi]: https://dreymar.colemak.org/ergo-mods.html#angle-wide                         (DreymaR's BigBag on Angle+Wide ergo mods)
 [ErgCrl]: https://dreymar.colemak.org/ergo-mods.html#curl-dh                            (DreymaR's BigBag on the Curl-DH ergo mod)
 [ErgSym]: https://dreymar.colemak.org/ergo-mods.html#symbols                            (DreymaR's BigBag on the Symbols ergo mod)

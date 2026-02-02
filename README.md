@@ -1,6 +1,6 @@
 <h1 align=center line-height=1.6>Gralmak</h1><br><br>
 
-<div align=center ><img src="_res/img/Gralmak_Orth-Cpt_EPKL.png" 
+<div align=center ><img src="/_res/img/Gralmak_Orth-Cpt_EPKL.png" 
                         alt="The Gralmak layout (EPKL help image)"></div><br>
 
 ## The Gralmak keyboard layout
@@ -8,7 +8,7 @@ Gralmak is a Graphite-Gallium variant that keeps closer to familiar layouts with
 <br><br>
 
 ## About Gralmak
-- This layout was made by DreymaR (that's me!), 2024-11.
+- This layout was made by me (DreymaR), 2024-11.
 - It is a variant of [Graphite][GraGit] by StronglyTyped and [Gallium][GalGit] by GalileoBlues. These layouts are very similar.
 - Gallium/Graphite are in turn related to other recent layouts, like [Sturdy][Sturdy] by Oxey and [Nerps][NrpRed] by Smudge.
 <br>
@@ -20,12 +20,16 @@ _The Gralmak layout (using the Angle mod for XMCVZ) on an ANSI keyboard_
 <br>
 
 - I wanted to make a Graphite-Gallium variant with traditional symbol/punctuation placements.
-- Thus came about the Gralmak variant that's easily ergo modified like, e.g., Colemak-CAWS.
+- Thus came about the Gralmak layout that's easily ergo modified like, e.g., Colemak-CAWS.
 - Like most other layouts, I didn't want to change the Shift states of keys (Graphite does this).
-- Like the [Gallium][GalPKL] and [Colemak(-Sym)][CmkPKL] layouts, I want J in the middle and a symbol on pinky.
+- Like the Gallium and Colemak(-Sym) layouts, I want J in the middle and a symbol on pinky.
 - I decided to have the apostrophe key in the letter block by default, as I like that a lot.
 - I also brought Z back to its familiar spot where QWERTY and Colemak has it.
-<br>
+- The name is a play on [Graphite][GraPKL]-[Gallium][GalPKL]-[Colemak][CmkPKL], and our quest for the mythical "Holy Grail" of layouts.
+<br><br>
+
+<div align=center ><a href="https://github.com/DreymaR/Gralmak#gralmak">
+                   <img src="_res/img/Grail-Chalice.png" style="width:30%;height:auto"></a></div><br>
 
 - It's easier to learn for someone coming from QWERTY, Colemak, and other layouts that leave the symbol keys unchanged.
 - In this capacity, it can also be a stepping-stone to full Graphite or Gallium! Learn Gralmak first, then decide whether to proceed.
@@ -33,12 +37,7 @@ _The Gralmak layout (using the Angle mod for XMCVZ) on an ANSI keyboard_
 - If you don't use punctuation solutions, you may instead use a symbol mod of your choice; [see below](#gralmaks).
 <br>
 
-The name is a play on Graphite-Gallium-Colemak, and our quest for the mythical "Holy Grail" of layouts.
-<br><br>
-
-<div align=center ><img src="_res/img/Grail-Chalice.png" style="width:30%;height:auto"></div><br>
-
-- Gralmak manages to satisfy newer analyzers and still keep some similarity to well-known layouts like Colemak.
+- Gralmak manages to satisfy newer [analyzers](#gralmak-analysis) and still keep some similarity to well-known layouts like Colemak.
 - For instance, only `N L M` and `F A E` swap hands from QWERTY; `N L M` and `F P A` from Colemak.
 - The familiar `QW RT ZX CV` bigrams are (semi-)preserved, aiding learning and recognition.
 <br>
@@ -223,7 +222,7 @@ Keep in mind though, that analysis is far from everything!
 In [an interesting Reddit comment](https://www.reddit.com/r/KeyboardLayouts/comments/1pzhwhh/comment/nwrnp3k/), these words of wisdom caught my attention:
 > ... don't blindly trust the stats. Columns are more important, and often choosing worse columns gives you better stats ...
 
-For details on the analysis, see the [Appendix](./README_APP.md#gralmak-analysis).
+For analysis details, see the [Appendix](./README_APP.md#gralmak-analysis).
 <br><br>
 
 ## GralQwest Transitions
@@ -255,7 +254,7 @@ _Gralmak-AWS-ISO. The © key can be a Compose key, or whatever you wish._
 
 [GraGit]: https://github.com/rdavison/graphite-layout#graphite-keyboard-layout          (The Graphite layout on GitHub)
 [GalGit]: https://github.com/GalileoBlues/Gallium#gallium                               (The Gallium layout on GitHub)
-[GrlGit]: https://github.com/DreymaR/Gralmak#gralmak                                    (The Gralmak layout on GitHub)
+[GmkGit]: https://github.com/DreymaR/Gralmak#gralmak                                    (The Gralmak layout on GitHub)
 [Sturdy]: https://oxey.dev/sturdy/                                                      (The Sturdy layout's home page)
 [NrpRed]: https://www.reddit.com/r/KeyboardLayouts/comments/tpwyjc/                     (The Nerps layout on Reddit)
 [CmkPKL]: https://github.com/DreymaR/BigBagKbdTrixPKL/tree/master/Layouts/Colemak#colemak               (The Colemak layout in EPKL)
