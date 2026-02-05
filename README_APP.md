@@ -140,7 +140,7 @@ There are some troublesome n-grams in any layout. These increase strain.
 Some n-grams aren't so bad, but they may lead to hesitation and errors in my experience.
 - LSBs (lateral stretch):
 	- `NG/GN`: Not too common actually. If you're not too grounded, it doesn't matter much.
-	- `GT/TG`: Alt w/ `Index-Ring`. In 'strength' (direct), 'right' (skip).
+	- `GT/TG`: Alt w/ `Index-Ring`. In 'strength', 'right' (skipgram).
 - Redirects:
 	- `UOU`: In, e.g., 'arduous'. This one seems hard to avoid. 'Joyous' has stretch-pinballing.
 	- There are generally few Grallium redirects.
@@ -212,6 +212,10 @@ SHAI:
 <br><br>
 
 ## GralQwest Transitions
+I wouldn't actually recommend a transitional-layout approach for learning Gralmak. It works much better for Colemak, I think. 
+And yet I thought up one mostly as a mental exercise for myself, so here it is in case anyone is really interested.
+<br>
+
 - Some [Colemak][CmkPKL] learners have used my [Tarmak][BBTtmk] transitional layouts to learn the layout in smaller steps.
 - Some even said they couldn't have done it all at once. Others strongly prefer going all the way at once, cold turkey.
 - Learning Gralmak from QWERTY is a longer way since Colemak(-DH) moves only 17(18) keys and Gralmak 24.
@@ -324,11 +328,13 @@ This progression might be useful if you wish to practice some smaller loops firs
 	https://www.reddit.com/r/KeyboardLayouts/comments/1pzhwhh/comment/nwrnp3k/
 - Make a forum for discussing the Grallium layout family, in lieu of a Discord server? On GitHub?
 	- The Graphite and Gallium creators don't seem interested. They've both moved on to new projects.
+- Discuss some problem words further? Especially ones that figure in the Eng200 list?
+	- Problem-y: school number public program 
+	- Uncertain: one follow
 
 <br>
 
 ## DONE
-- Experiences writeup.
 - Introduce the Gralmaks and generic Sym mods. Explain how they work together.
 	- I'll only implement one Gralmaks variant, incorporating Sym, as the default Gmk-Sym. Otherwise, madness.
 - Should plain Gralmak _not_ use the SC-QU swap?!? For max compatibility with QWERTY/Colemak.

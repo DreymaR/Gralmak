@@ -225,14 +225,6 @@ In [an interesting Reddit comment](https://www.reddit.com/r/KeyboardLayouts/comm
 For analysis details, see the [Appendix](./README_APP.md#gralmak-analysis).
 <br><br>
 
-## GralQwest Transitions
-- Some [Colemak][CmkPKL] learners have used my [Tarmak][BBTtmk] transitional layouts to learn the layout in smaller steps.
-- Learning Gralmak from QWERTY is a longer way since Colemak(-DH) moves only 17(18) keys and Gralmak 24.
-- It's still possible to construct learning loops for users who want to learn 3–6 keys at a time.
-- For details on the proposed GralQwest transitional layouts, see the [Appendix](./README_APP.md#gralqwest-transitions).
-
-<br>
-
 <h1 align=center>⌨&nbsp;&nbsp;&nbsp;⌨&nbsp;&nbsp;&nbsp;⌨&nbsp;&nbsp;&nbsp;⌨&nbsp;&nbsp;&nbsp;⌨</h1>
 
 <br><br>
