@@ -331,6 +331,8 @@ This progression might be useful if you wish to practice some smaller loops firs
 - Discuss some problem words further? Especially ones that figure in the Eng200 list?
 	- Problem-y: school number public program 
 	- Uncertain: one follow
+- Trouble with `environmental`. The main issue is the `nment` part which is a skip-redirect for the pinky.
+	- Also something about the sheer number of alternations involved? There are so many finger patterns.
 
 <br>
 
