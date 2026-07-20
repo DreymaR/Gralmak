@@ -53,7 +53,7 @@ Maya (adi.lela)
 - The main differences are in punctuation placements. I consider that mostly a separate/modular issue here.
 ```
 Gallium (GalileoBlues)
-  b l d c v  j f o u ,              (This is the v2 "row-stag" version)
+  b l d c v  j f o u ,              (This is the v2-"Rowstag" version)
   n r t s g  y h a e i              (`y p f` and `x q` positions are swapped from v1)
   q x m w z  k p ' ; .  
 
@@ -339,6 +339,11 @@ This progression might be useful if you wish to practice some smaller loops firs
 <br>
 
 ## DONE
+- Keys kept from QWERTY, relative to Colemak(-DH):
+	- Colemak-DH: Q W A G Z X C     (Vanilla Colemak also keeps V B and H M, but not G. These all keep their fingering though.)
+	- Gralmak:          G Z X       (Q W and C V are semi-preserved, staying close and keeping their relative positions.)
+	- A and C had to move for layout quality. Keeping these in place in Colemak has been criticized by later creators.
+
 - Introduce the Gralmaks and generic Sym mods. Explain how they work together.
 	- I'll only implement one Gralmaks variant, incorporating Sym, as the default Gmk-Sym. Otherwise, madness.
 - Should plain Gralmak _not_ use the SC-QU swap?!? For max compatibility with QWERTY/Colemak.

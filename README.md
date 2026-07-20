@@ -22,9 +22,9 @@ _The Gralmak layout (using the Angle mod for XMCVZ) on an ANSI keyboard_
 - I wanted to make a Graphite-Gallium variant with traditional symbol/punctuation placements.
 - Thus came about the Gralmak layout that's easily ergo modified like, e.g., Colemak-CAWS.
 - Like most other layouts, I didn't want to change the Shift states of keys (Graphite does this).
-- Like the Gallium and Colemak(-Sym) layouts, I want J in the middle and a symbol on pinky.
+- Like the Gallium and Colemak layouts, I want J in the middle and a symbol on pinky.
 - I decided to have the apostrophe key in the letter block by default, as I like that a lot.
-- I also brought Z back to its familiar spot where QWERTY and Colemak has it.
+- I also brought Z back to its familiar QWERTY and Colemak spot.
 - The name is a play on [Graphite][GraPKL]-[Gallium][GalPKL]-[Colemak][CmkPKL], and our quest for the mythical "Holy Grail" of layouts.
 <br><br>
 
@@ -37,9 +37,14 @@ _The Gralmak layout (using the Angle mod for XMCVZ) on an ANSI keyboard_
 - If you don't use punctuation solutions, you may instead use a symbol mod of your choice; [see below](#gralmaks).
 <br>
 
-- Gralmak manages to satisfy newer [analyzers](#gralmak-analysis) and still keep some similarity to well-known layouts like Colemak.
-- For instance, only `N L M` and `F A E` swap hands from QWERTY; `N L M` and `F P A` from Colemak.
-- The familiar `QW RT ZX CV` bigrams are (semi-)preserved, aiding learning and recognition.
+- Gralmak manages to satisfy newer [analyzers](#gralmak-analysis) and still keep a similarity to well-known layouts like Colemak.
+- `ZX G` are fully preserved from QWERTY/Colemak.
+- The `QW RT CV` bigrams are semi-preserved, aiding learning and recognition.
+- Apart from these, only `A` is kept in its QWERTY position on Colemak-DH whereas it changes hands on Gralmak.
+- Only `N L M` and `F A E` swap hands between QWERTY and Gralmak; `N L M` and `F P A` coming from Colemak(-DH).
+- So while Colemak keeps 10 and Colemak-DH 7 letters in their QWERTY positions, Gralmak isn't that far behind on similarity.
+- The reward for this further departure from the well-known is (arguably) much better analyzer stats. Looks like a worthy venture?
+- As usual though, I have to warn against trusting analysis blindly – and remind you that some factors are individual.
 <br>
 
 ```
@@ -62,8 +67,8 @@ These layouts have a lot in common.
 In the [Appendix](./README_APP.md#meet-the-family) you may read a little more about the different family members.
 <br><br>
 
-|  Gallium-v1  |  Graphite  |
-|:------------:|:----------:|
+|  Gallium v1-"Colstag"  |  Graphite  |
+|:----------------------:|:----------:|
 |  ![](_res/img/Gallium-v1_Orth-Cpt_EPKL.png)  |  ![](_res/img/Graphite_Orth-Cpt_EPKL.png)  |
 
 <br><br>
@@ -72,6 +77,7 @@ In the [Appendix](./README_APP.md#meet-the-family) you may read a little more ab
 - An [**Angle**][ErgAWi] ergo mod is recommended for this layout on row-staggered boards.
 - Gralmak may be said to use the [**Curl**][ErgCrl] principle, by reducing lateral stretches to the middle home row positions.
 - By default, the only symbol keys it affects are apostrophe/quote (QU) and semicolon (SC).
+- You may, of course, elect to not even do that swap and keep all the symbol keys unmoved.
 - Not moving the symbol keys makes it easier to learn and transition to, and adds flexibility.
 - Depending on your use case you may apply further Sym and/or Wide ergo mods to Gralmak.
 <br>
