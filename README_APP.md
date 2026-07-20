@@ -329,10 +329,12 @@ This progression might be useful if you wish to practice some smaller loops firs
 - Make a forum for discussing the Grallium layout family, in lieu of a Discord server? On GitHub?
 	- The Graphite and Gallium creators don't seem interested. They've both moved on to new projects.
 - Discuss some problem words further? Especially ones that figure in the Eng200 list?
-	- Problem-y: school number public program 
-	- Uncertain: one follow
+	- Problem-ish Eng200 words: school number public program 
+	- Uncertain: 
+	- GTH/GHT (lateral stretch): strength length straight
 - Trouble with `environmental`. The main issue is the `nment` part which is a skip-redirect for the pinky.
 	- Also something about the sheer number of alternations involved? There are so many finger patterns.
+
 
 <br>
 
@@ -343,6 +345,55 @@ This progression might be useful if you wish to practice some smaller loops firs
 	- In this case, I'd generally recommend GralmakS with the Sym mod for most non-Wide applications.
 	- I think not. For one, QU is inside the letter block in Graphite. And I like that position a lot.
 	- Make it clear, then, that the SC-QU non-swap is a possibility for those who feel otherwise.
+
+- Make a separate Github repo for Gralmak.
+	- Looks way more serious than having it tucked away in corners of the EPKL repo.
+	- Add .klc files, images and descriptions.
+	- Get it linked to from MonkeyType, Cyanophage, AKL disco, ???
+	- Add it as a separate layout in EPKL instead of just as a Graphite variant.
+		- It would still point to the Graphite BaseLayout, but from its own folder.
+		- Not necessary for Galliard, I think, as I don't use/recommend that one as strongly now.
+
+- Make a Gralmak-PCT (Period/Comma Thumbless – or just Punctuation) mod for optimal punctuation without a thumb key.
+	- I suppose Gallium's or Graphite's punctuation is fine then? They both have awkward quirks while solving the period+comma issues.
+	- Main issues according to Cyanophage are the `E.` SFB (0.14%) and the `O_,` s1-SFB (0.07%).
+	- Gralmak-pct uses Graphite's period on the OA column. Both Gallium and Graphite have comma placed with I on the pinky.
+	- The big question is whether it's useful though. Might instead recommend using either Gallium or Graphite punctuation.
+		- Gallium punctuation has lower SFB% according to cmini. People will care about that. The period is the key to that.
+		- At the same time, Gallium achieves that by loading the pinky with both comma and period. Maybe some dislike that?
+	Graphite:
+			   '         ;
+						 ,
+				   . - /
+	
+	Gallium:
+					   , [
+						 /
+				   ' ; .
+	
+	Gralmak:
+	b l d w q  j f o u ' [
+	n r t s g  y h a e i ;
+	z x m c v  k p , . /
+	
+	GralmakS:
+	b l d w q  j f o u ' -
+	n r t s g  y h a e i ;
+	z x m c v  k p . / ,
+	Remapped: . , / and Sym
+	
+	Gralmak-thumb:
+	b l d w q  j f o u '
+	n r t s g  y h a e i
+	z x m c v  k p     /
+			   ! , . ; -
+	
+- Analyzeable layout at Cyanophage, with `, . /` unmodified:
+	https://cyanophage.github.io/playground.html?layout=bldwqjfou%27-nrtsgyhaei%3Bzxmcvkp%2C.%2F%5C%3D&mode=ergo&lan=english&thumb=l
+	bldwqjfou'-nrtsgyhaei;zxmcvkp,./
+- Analyzeable layout at Cyanophage (link then import string), with `\ =` for the `, .` keys to avoid bad analysis:
+	https://cyanophage.github.io/playground.html?layout=bldwqjfou%27-nrtsgyhaei%2Czxmcvkp%5C%3D%2F%3B.&mode=ergo&lan=english&thumb=l
+	bldwqjfou'-nrtsgyhaei,zxmcvkp\=/;.
 
 <br>
 
